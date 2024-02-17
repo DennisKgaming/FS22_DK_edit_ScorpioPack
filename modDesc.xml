@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="60">
+
+    <author>DennisK</author>
+	
+    <version>1.0.0.0</version>
+	
+    <title>
+        <en>ELHO Scorpio Stone Picker pack DK edit</en>
+    </title>
+	
+    <description>
+        <en>
+		<![CDATA[ELHO Scorpio 550 stone pickers collect stones efficiently with working width 5,5m!
+
+Price: 52.000 €
+Required power: 120 hp
+Max. working speed: 20 kph
+Working width: 5.5m
+Capacity: 2000l
+
+ELHO Scorpio 710 stone pickers collect stones efficiently with working width 9,5m!
+
+Price: 64.000 €
+Required power: 170 hp
+Max. working speed: 20 kph
+Working width: 9.5m
+Capacity: 2500l
+
+]]>
+		</en>
+    </description>
+	
+    <iconFilename>icons/icon_scorpioPack.png</iconFilename>
+	
+    <storeItems>
+        <storeItem xmlFilename="xml/scorpio550.xml"/>
+		<storeItem rootNode="vehicle" xmlFilename="xml/scorpio710.xml"/>
+    </storeItems>
+	
+	<multiplayer supported="true"/>
+	
+	<l10n>
+		<text name="WT"><en>With Warning Triangle</en><de>Mit Warndreieck</de><fr>Avec Warning Triangle</fr></text>	
+		<text name="Cab"><en>Forestry</en><de>Forstwirtschaft</de><fr>Foresterie</fr></text>	
+		<text name="WTCab"><en>Forestry With Warning Triangle</en><de>Forstwirtschaft Mit Warndreieck</de><fr>Foresterie Avec Warning Triangle</fr></text>
+		<text name="YELLOW"><en>Yellow</en><de>Gelb</de><fr>Jaune</fr></text>
+		<text name="YELLOW_JD"><en>JD Yellow</en><de>JD Gelb</de><fr>Jaune JD</fr></text>
+		<text name="GREEN_JD"><en>JD Green</en><de>JD Grün</de><fr>Vert JD</fr></text>
+		<text name="GREEN_FOREST"><en>Forest green</en><de>Waldgrün</de><fr>Vert Foret</fr></text>		
+    </l10n>	
+	
+	<extraSourceFiles>
+        <sourceFile filename="scripts/categorizer.lua"/>
+    </extraSourceFiles>
+	
+	<newcategory name="DennisKtools" title="DennisK" type="TOOL" img="Categories/CategoryTools.png" />
+	
+</modDesc>
